@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=s, initial-scale=1.0">
+        <title>Juegos Olimpicos</title>
+      <!--bootstrap, jquery, popper -->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/ionicons/2.0.1/css/ionicons.min.css">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+      
+      <!--css personal -->
+      <link rel="stylesheet" href="style.css">
+      </head>
+<body>
+  <header>
+    <!-- imagen tokyo 2020-->
+    <div class="jumbotron text-center" style="margin-bottom:-50px; margin-top:-40px;">
+    <img src="images/header.png" height="30%">
+    </div> 
+    <!--menu con las secciones -->
+  <nav class="navbar navbar-expand-md bg-dark navbar-dark justify-content-center">
+    <ul class="navbar-nav">
+      <li class="nav-item">
+        <a class="nav-link" href="galeria.html">Galeria</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="index.html">Inicio</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="noticias.html">Noticias</a>
+      </li>
+    </ul>
+  </nav>
+  </header>  
+
+    <!-- carrusel de fotos-->
+    <div id="carrusel-noticias">
+      <div id="demo" class="carousel slide" data-ride="carousel">
+  
+          <!-- Indicators -->
+          <ul class="carousel-indicators">
+            <li data-target="#demo" data-slide-to="0" class="active"></li>
+            <li data-target="#demo" data-slide-to="1"></li>
+            <li data-target="#demo" data-slide-to="2"></li>
+          </ul>
+        
+          <!-- The slideshow -->
+          <div class="carousel-inner">
+            <div class="carousel-item active">
+              <img src="https://www.diariopanorama.com/fotos/cache/notas/2021/08/04/1010x567_leonas-389460-123720.jpg">
+              <div class="carousel-caption">
+                  <p class="titulos-fotos bg-primary">La selección femenina de Hockey de Argentina consiguió la medalla de plata, como segundo puesto, contra Países Bajos.</p>
+                </div>
+            </div>
+              <div class="carousel-item">
+              <img src="https://as01.epimg.net/juegos_olimpicos/imagenes/2021/08/07/noticias/1628320155_906730_1628320274_noticia_normal_recorte1.jpg">
+              <div class="carousel-caption">
+                <p class="titulos-fotos bg-primary">La selección masculina de voley de Argentina fue muy relevante en estos Juegos Olímpicos 2020, ya que, también lograron brindarnos una gran alegría ganando la medalla de Bronce.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+              <img src="https://as01.epimg.net/argentina/imagenes/2019/08/07/masdeporte/1565173273_047901_1565173328_noticia_normal_recorte1.jpg">
+              <div class="carousel-caption">
+              <p class="titulos-fotos bg-primary">Delfina Pignatiello, la gran aparición de la natación argentina en los últimos tiempos, tuvo su debut olímpico en Tokio 2020.</p>
+                </div>
+            </div>
+          </div>
+            
+          </div>
+        
+          <!-- Left and right controls -->
+          <a class="carousel-control-prev" href="#demo" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+          </a>
+          <a class="carousel-control-next" href="#demo" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+          </a>
+        
+        </div>
+        </div>
+        <br><br>
+        
+<!-- carrusel de videos -->
+<div id="carrusel-noticias">
+  <div id="demo" class="carousel slide" data-ride="carousel">
+
+      <!-- Indicators -->
+      <ul class="carousel-indicators">
+        <li data-target="#demo" data-slide-to="0" class="active"></li>
+        <li data-target="#demo" data-slide-to="1"></li>
+        <li data-target="#demo" data-slide-to="2"></li>
+      </ul>
+    
+      <!-- The slideshow -->
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <!-- aca va el video -->
+          <iframe width="1120" height="630" src="https://www.youtube.com/embed/eLlnYre1HFg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <div class="carousel-caption">
+              
+            </div>
+        </div>
+          <div class="carousel-item">
+          <!-- aca va el video -->
+          <iframe width="1120" height="630" src="https://www.youtube.com/embed/BtXLh8_GNmE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+        <div class="carousel-item">
+          <!-- aca va el video --><iframe width="1120" height="630" src="https://www.youtube.com/embed/gA_DyRkCc6g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          
+        </div>
+      </div>
+        
+      </div>
+    
+      <!-- Left and right controls -->
+      <a class="carousel-control-prev" href="#demo" data-slide="prev">
+        <span class="carousel-control-prev-icon"></span>
+      </a>
+      <a class="carousel-control-next" href="#demo" data-slide="next">
+        <span class="carousel-control-next-icon"></span>
+      </a>
+    
+    </div>
+    </div>
+ <!-- aca van los muñequitos -->
+<div id="logo1">
+  <img src="images/muñeco1.png" width="120" height="119" onmouseover="this.width=300;this.height=300;" onmouseout="this.width=100;this.height=80;" width="100" height="80"/>
+</div>
+
+<div id="logo2">
+  <img src="images/muñeco2.png" width="120" height="119" onmouseover="this.width=300;this.height=300;" onmouseout="this.width=100;this.height=80;" width="100" height="80"/>
+</div>
+
+<!--
+
+https://www.diariopanorama.com/fotos/cache/notas/2021/08/04/1010x567_leonas-389460-123720.jpg  La selección femenina de Hockey de Argentina consiguió la medalla de plata, como segundo puesto, contra Países Bajos. Quedando así la tabla de posiciones de la siguiente manera: Primer puesto para Países Bajos, Segundo puesto para Argentina y Tercer puesto para Gran Bretaña. En esta final, las Leonas intentaron dar lo mejor de sí mismas, pero sin embargo, fueron derrotadas con un resultado de 3 a 1. Lo más importante de esto, es que llegaron a la final y nos dieron una inmensa alegría a todos los argentinos seguidores de los Juegos Olímpicos.  
+https://as01.epimg.net/juegos_olimpicos/imagenes/2021/08/07/noticias/1628320155_906730_1628320274_noticia_normal_recorte1.jpg  La selección masculina de voley de Argentina fue muy relevante en estos Juegos Olímpicos 2020, ya que, también lograron brindarnos una gran alegría ganando la medalla de Bronce. De esta manera, consiguieron ganarle a una de las competencias más complejas de aquel entonces: Italia. Con un partido muy difícil y parejo entre ambos países, consiguieron derrotarlo y llegar a competir contra Francia, en donde Francia superó a la selección Argentina con un resultado de 3 a 0. Y, finalmente, para competir por la medalla de bronce, Argentina tuvo que competir contra Brasil, con quien, después de un partido muy parejo en cuanto a resultados, obtuvo su merecido triunfo de 15-13 a Brasil en el tie break. 
+https://as01.epimg.net/argentina/imagenes/2019/08/07/masdeporte/1565173273_047901_1565173328_noticia_normal_recorte1.jpg  Delfina Pignatiello, la gran aparición de la natación argentina en los últimos tiempos, tuvo su debut olímpico en Tokio 2020. Lo hizo en la prueba de natación de 1500 metros libre, que se corrió por primera en la rama femenina en esta edición de los Juegos Olímpicos.
+
+https://www.youtube.com/watch?v=gA_DyRkCc6g&ab_channel=RanaMatiusF%C3%BAtbol Hugo y Facundo Conte, padre e hijo, compartiendo su misma pasión: el voley y la selección masculina de Argentina. 
+https://www.youtube.com/watch?v=BtXLh8_GNmE&ab_channel=HockeyTape Argentina Vs. Alemania, los mejores goles. 
+https://www.youtube.com/watch?v=eLlnYre1HFg&ab_channel=Televisi%C3%B3nP%C3%BAblica   Pignatiello: “Me dan ganas de volver la próxima con otra cabeza, mejor preparada” - Tokyo 2020
+
+
+
+
+
+
+-->
+
